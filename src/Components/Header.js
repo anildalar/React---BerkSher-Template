@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom'
 
 
 //RFC
@@ -691,10 +692,10 @@ export default function Header() {
                             <a href="login.html">Login/Register <i className="fas fa-angle-right" /></a>
                             <ul className="brk-nav__sub-menu brk-nav-drop-down font__family-montserrat">
                                 <li className="dd-effect">
-                                <a href="login.html">Login</a>
+                                    <NavLink to="/login">Login</NavLink>
                                 </li>
                                 <li className="dd-effect">
-                                <a href="register.html">Register</a>
+                                    <NavLink to="/register">Register</NavLink>
                                 </li>
                             </ul>
                             </li>
